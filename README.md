@@ -60,13 +60,13 @@ This tool is experimental and academic use only with special occasion, all conse
 Tips:
 
 1. 没有test.txt文件会报错
-1. error occurs when missing 'test.txt' file
+   error occurs when missing 'test.txt' file
 
 2. 生成的output.csv文件会将旧文件覆盖
-2. old 'output.csv' file will be replaced by the new one
+   old 'output.csv' file will be replaced by the new one
 
 3. 过程中会生成temp_spacemix.txt作为临时文件，运行结束后自动删除，请注意不要自行创建同名文件
-3. temp file 'temp_spacemix.txt' will be created during transfer, and deleted at last, please do not create 'temp_spacemix.txt' by yourself
+   temp file 'temp_spacemix.txt' will be created during transfer, and deleted at last, please do not create 'temp_spacemix.txt' by yourself
 
 4. 不要在转换同时打开test.txt文件，会使程序无法读取
-4. please do not open 'test.txt' before programme starts, it will prevent file reading
+   please do not open 'test.txt' before programme starts, it will prevent file reading
