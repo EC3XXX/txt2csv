@@ -1,7 +1,7 @@
 //.txt data file space combination & transfer to .csv file
 //by EC3XXX
 //2023/9/6
-//tools for ghame_system_modeling to get .csv data file
+//tools to get .csv data file
 //easy to draw curves in Matlab or Excel
 
 //DO NOT EDIT FILES THAT ARE CURRENTLY OPENED BY OTHER PROGRAMMES, INCLUDE INPUT FILE, OUTPUT FILE AND TEMP FILE
