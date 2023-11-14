@@ -1,6 +1,10 @@
 # txt2csv
-transfer "txt with spaces and tabs" to "csv with ','" files
 
+将 由多个空格进行分隔的txt文件 转换为 由逗号分割的标准csv文件
+
+transfer "txt with spaces" to "csv with ','" files
+
+--------
 
 简单快捷的非标准txt转csv小工具
 
@@ -14,11 +18,13 @@ can check sourcecode by downloading spacemix.c file or use spacemix.exe as tool 
 
 name your target file as test.txt and put with this tool together, run .exe, then you can get output.csv file.
 
+--------
 
 以下例：
+
 Example:
 
-test.txt:
+test.txt:(多个空格显示不出来，非常抱歉 multiple spacebars, failed to show in .md, sorry)
 
 1   234        34343    111
 
@@ -41,6 +47,7 @@ output.csv:
 
 asbs,sss,epq,j
 
+--------
 
 重要的提示：
 
@@ -54,19 +61,24 @@ Backup important files to avoid unnecessary troubles
 
 This tool is experimental and academic use only with special occasion, all consequences shall be borne by the user
 
+--------
 
 注意：
 
 Tips:
 
 1. 没有test.txt文件会报错
+   
    error occurs when missing 'test.txt' file
 
 2. 生成的output.csv文件会将旧文件覆盖
+   
    old 'output.csv' file will be replaced by the new one
 
 3. 过程中会生成temp_spacemix.txt作为临时文件，运行结束后自动删除，请注意不要自行创建同名文件
+   
    temp file 'temp_spacemix.txt' will be created during transfer, and deleted at last, please do not create 'temp_spacemix.txt' by yourself
 
 4. 不要在转换同时打开test.txt文件，会使程序无法读取
+   
    please do not open 'test.txt' before programme starts, it will prevent file reading
